@@ -333,3 +333,17 @@ export default async function (req, res) {
   }
 }
 ```
+Para la generación de imágenes por asistencia artificial se ha usado el modelo dall-e-3.
+![Modelo Inteligencia Artificial](./docs/images/model-openai.png)
+
+[Referncia](https://platform.openai.com/docs/api-reference/images/create) de la API.
+![Referencia de la API](./docs/images/api-reference.png)
+
+Ahora pasamos a mostrar las funcionalidades creadas con capturas sobre el despliegue de la aplicación en Netlify.
+
+#### RECORDEMOS QUE LA APLICACIÓN NO VA A FUNCIONAR PORQUE LA API KEY NO ES VÁLIDA, PORQUE TENEMOS UNA CUENTA GRATIUTA
+
+![Funcionalidad 1](./docs/images/functionallity-1.png)
+![Funcionalidad 2](./docs/images/functionallity-2.png)
+![Funcionalidad 3](./docs/images/functionallity-3.png)
+
