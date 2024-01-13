@@ -39,7 +39,6 @@ export default function Images() {
     <div>
       <Head>
         <title>OpenAI Image Generator</title>
-        {/* Puedes cambiar el ícono según tu preferencia */}
         <link rel="icon" href="/dog.png" />
       </Head>
 

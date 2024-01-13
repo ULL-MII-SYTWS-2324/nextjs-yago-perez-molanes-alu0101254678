@@ -19,7 +19,6 @@ export default async function (req, res) {
     const generation = await openai.images.generate({
       model: "dall-e-3", // Ajusta según el modelo específico de DALL-E 2
       prompt: req.body.text, // Utiliza el texto proporcionado por el usuario como prompt
-      // Puedes agregar más configuraciones según la documentación de OpenAI
     });
 
     // Responde con la URL de la imagen generada
