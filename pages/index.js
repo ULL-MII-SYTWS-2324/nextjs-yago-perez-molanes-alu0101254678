@@ -8,6 +8,10 @@ export default function Home() {
 
   async function onSubmit(event) {
     event.preventDefault();
+    if (animalInput.trim() === '') {
+      // Show an error message or simply return
+      return;
+    }
     const response = await fetch("/api/generate", {
       method: "POST",
       headers: {
